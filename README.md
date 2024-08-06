@@ -45,7 +45,7 @@ To set up this project locally:
 1. **Compile the code:**
 
     ```bash
-    gcc -o aes aes.c
+    gcc -o aes aes128_encryption.c
     ```
 
 2. **Run the application:**
