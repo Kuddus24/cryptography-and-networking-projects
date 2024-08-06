@@ -21,8 +21,8 @@ This repository contains various cryptographic and networking projects, includin
 
 ### Huffman Encoding
 - Encoding and decoding processes.
--{huffman_encoding.c}
--{huffman_decoding.c}
+- {huffman_encoding.c}
+- {huffman_decoding.c}
 
 
 
