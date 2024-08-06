@@ -90,6 +90,4 @@ Feel free to contribute to this repository by submitting issues or pull requests
 
 For major changes, please open an issue first to discuss what you would like to change.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
