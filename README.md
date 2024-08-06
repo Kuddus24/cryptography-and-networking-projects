@@ -11,6 +11,9 @@ This repository contains various cryptographic and networking projects, includin
 ### AES Implementation
 - Key expansion, encryption, and decryption processes.
 - Detailed comments and documentation.
+- {custom_types.h}
+- {aes128_keyExpansion.c}
+- {aes128_encryption.c}
 
 ### Multi-threaded Socket Programming
 - Concurrent server and client applications.
