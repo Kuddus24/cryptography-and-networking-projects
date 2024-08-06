@@ -132,7 +132,7 @@ void ShiftRows(u8 state[4][4]) {
 
 // xtime function to perform multiplication by 2 in the GF(2^8) field
 u8 xtime(u8 x) {
-    return (x << 1) ^ ((x & 0x80) ? 0x1b : 0);          //guide: avoid ussing if..else condition in practice;
+    return (x << 1) ^ (((x>>7) & 1) *0x1b);           //guide: avoid ussing if..else condition in practice;
 
    /*  Shift 'x' one bit to the left.
        This is equivalent to multiplying by 2 in the GF(2^8) field.
