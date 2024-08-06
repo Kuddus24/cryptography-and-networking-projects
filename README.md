@@ -89,20 +89,6 @@ To set up this project locally:
 
 
 
-    CC = gcc
-CFLAGS = -Wall -Wextra -I.
-
-OBJ = aes_encrypt.o aes_decrypt.o
-
-%.o: %.c
-	$(CC) -c -o $@ $< $(CFLAGS)
-
-libaes.a: $(OBJ)
-	ar rcs $@ $^
-
-clean:
-	rm -f *.o libaes.a
-
 
 
 
