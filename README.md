@@ -25,53 +25,6 @@ This repository contains various cryptographic and networking projects, includin
 
 
 
-3. **Follow additional setup instructions provided in the specific project directories.**
-
-## Usage
-
-### AES Implementation
-
-1. **Compile the code:**
-
-    ```bash
-    gcc -o aes aes128_encryption.c
-    ```
-
-2. **Run the application:**
-
-    ```bash
-    ./aes
-    ```
-
-### Multi-threaded Socket Programming
-
-1. **Compile the server and client programs:**
-
-    ```bash
-    gcc -o server server.c -lssl -lcrypto
-    gcc -o client client.c -lssl -lcrypto
-    ```
-
-2. **Run the server and client applications:**
-
-    ```bash
-    ./server
-    ./client
-    ```
-
-### Huffman Encoding
-
-1. **Compile the Huffman encoding code:**
-
-    ```bash
-    gcc -o huffman huffman.c
-    ```
-
-2. **Run the application:**
-
-    ```bash
-    ./huffman
-    ```
 
 
 
