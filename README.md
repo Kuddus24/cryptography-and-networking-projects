@@ -27,13 +27,13 @@ To set up this project locally:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/repository-name.git
+    git clone https://github.com/kuddus24/cryptography-and-networking-project.git
     ```
 
 2. **Navigate to the project directory:**
 
     ```bash
-    cd repository-name
+    cd cryptography-and-networking-project
     ```
 
 3. **Follow additional setup instructions provided in the specific project directories.**
