@@ -84,10 +84,6 @@ To set up this project locally:
     ./huffman
     ```
 
-## Contributing
 
-Feel free to contribute to this repository by submitting issues or pull requests. Please follow the guidelines provided in the CONTRIBUTING.md file.
-
-For major changes, please open an issue first to discuss what you would like to change.
 
 
