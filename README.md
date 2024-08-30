@@ -15,9 +15,6 @@ This repository contains various cryptographic and networking projects, includin
 - {aes128_keyExpansion.c}
 - {aes128_encryption.c}
 
-### Multi-threaded Socket Programming
-- Concurrent server and client applications.
-- Secure communication using OpenSSL.
 
 ### Huffman Encoding
 - Encoding and decoding processes.
