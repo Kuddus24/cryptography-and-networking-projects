@@ -1,3 +1,4 @@
+
 #include "custom_types.h"
 #include <stdio.h>
 
@@ -89,5 +90,33 @@ void KeyExpansion(u8* RoundKey, const u8* Key) {
         RoundKey[(i * 4) + 1] = RoundKey[(i - Nk) * 4 + 1] ^ tempa[1];
         RoundKey[(i * 4) + 2] = RoundKey[(i - Nk) * 4 + 2] ^ tempa[2];
         RoundKey[(i * 4) + 3] = RoundKey[(i - Nk) * 4 + 3] ^ tempa[3];
+    
     }
+}
+
+
+void print_round_key(u8* RoundKey, int round) {
+    printf("Round %d key: ", round);
+    for (int i = 0; i < 16; i++) {
+        printf("%02x ", RoundKey[i]);
+    }
+    printf("\n");
+}
+
+int main() {
+    // Example key (128-bit AES key)
+    u8 key[16] = { 0x2b, 0x7e, 0x15, 0x16, 
+                   0x28, 0xae, 0xd2, 0xa6, 
+                   0xab, 0xf7, 0x15, 0x88, 
+                   0x09, 0xcf, 0x4f, 0x3c };
+                   
+    u8 RoundKey[176]; // 11 rounds * 4 words * 4 bytes = 176 bytes
+    KeyExpansion(RoundKey, key); // Generate all round keys
+
+    // Print the keys for each round
+    for (int round = 0; round <= Nr; round++) {
+        print_round_key(&RoundKey[round * Nb * 4], round);
+    }
+
+    return 0;
 }
