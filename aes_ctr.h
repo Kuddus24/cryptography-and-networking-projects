@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 #include "aes_utils.h"
 #include "custom_types.h"
 
