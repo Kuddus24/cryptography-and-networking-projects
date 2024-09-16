@@ -3,7 +3,6 @@
 
 #include "aes_utils.h"
 
-
 #endif // MODES_H
 //CBC mode;
 void AES_CBC_Encrypt_File(const char* inputFile, const char* outputFile, const u8* key, u8* iv) {
