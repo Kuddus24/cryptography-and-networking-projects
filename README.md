@@ -22,10 +22,6 @@ This repository contains various cryptographic and networking projects, includin
   - **`aes_ofb.h`** & **`aes_ofb_mode.c`**: Implements AES in Output Feedback (OFB) mode, converting block ciphers into stream ciphers.
 
 
-### Huffman Encoding
-- Encoding and decoding processes.
-- {huffman_encoding.c}
-- {huffman_decoding.c}
 
 
 
